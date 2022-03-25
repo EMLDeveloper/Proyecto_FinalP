@@ -82,7 +82,6 @@ public class Returns extends javax.swing.JPanel {
         jSeparator3.setPreferredSize(new java.awt.Dimension(200, 10));
         add(jSeparator3, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 30, 10, 350));
 
-        book_id.setFont(new java.awt.Font("Segoe UI", 0, 12)); // NOI18N
         book_id.setForeground(new java.awt.Color(102, 102, 102));
         book_id.setText("Ingrese el ID del Libro a devolver");
         book_id.setBorder(null);
@@ -98,7 +97,6 @@ public class Returns extends javax.swing.JPanel {
         });
         add(book_id, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 200, 260, 30));
 
-        folio.setFont(new java.awt.Font("Segoe UI", 0, 12)); // NOI18N
         folio.setForeground(new java.awt.Color(102, 102, 102));
         folio.setText("Ingrese el folio del usuario");
         folio.setBorder(null);
@@ -109,7 +107,7 @@ public class Returns extends javax.swing.JPanel {
         });
         add(folio, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 100, 260, 30));
 
-        button.setBackground(new java.awt.Color(153, 0, 0));
+        button.setBackground(new java.awt.Color(0, 0, 255));
         button.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         button.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
