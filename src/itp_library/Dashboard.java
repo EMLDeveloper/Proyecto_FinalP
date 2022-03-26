@@ -597,10 +597,10 @@ public class Dashboard extends javax.swing.JFrame {
     }//GEN-LAST:event_btn_reportsMousePressed
 
     void setColor(JPanel panel){
-        panel.setBackground(new Color(21,101,192));
+        panel.setBackground(new Color(153,0,0));
     }
     void resetColor(JPanel panel){
-        panel.setBackground(new Color(18,90,173));
+        panel.setBackground(new Color(153,0,0));
     }
     /**
      * @param args the command line arguments
