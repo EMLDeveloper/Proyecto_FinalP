@@ -47,7 +47,7 @@ public class Returns extends javax.swing.JPanel {
         jLabel1 = new javax.swing.JLabel();
         Image = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(255, 255, 255));
+        setBackground(new java.awt.Color(255, 246, 234));
         setMinimumSize(new java.awt.Dimension(750, 430));
         setPreferredSize(new java.awt.Dimension(750, 430));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -68,11 +68,11 @@ public class Returns extends javax.swing.JPanel {
         Text2.setText("Folio Usuario");
         add(Text2, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 70, -1, -1));
 
-        jSeparator1.setForeground(new java.awt.Color(0, 153, 255));
+        jSeparator1.setForeground(new java.awt.Color(153, 0, 0));
         jSeparator1.setPreferredSize(new java.awt.Dimension(200, 10));
         add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 230, 260, 10));
 
-        jSeparator2.setForeground(new java.awt.Color(0, 153, 255));
+        jSeparator2.setForeground(new java.awt.Color(153, 0, 0));
         jSeparator2.setPreferredSize(new java.awt.Dimension(200, 10));
         add(jSeparator2, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 130, 260, 10));
 
@@ -81,7 +81,7 @@ public class Returns extends javax.swing.JPanel {
         jSeparator3.setPreferredSize(new java.awt.Dimension(200, 10));
         add(jSeparator3, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 30, 10, 350));
 
-        book_id.setFont(new java.awt.Font("Segoe UI", 0, 12)); // NOI18N
+        book_id.setBackground(new java.awt.Color(255, 246, 234));
         book_id.setForeground(new java.awt.Color(102, 102, 102));
         book_id.setText("Ingrese el ID del Libro a devolver");
         book_id.setBorder(null);
@@ -97,7 +97,7 @@ public class Returns extends javax.swing.JPanel {
         });
         add(book_id, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 200, 260, 30));
 
-        folio.setFont(new java.awt.Font("Segoe UI", 0, 12)); // NOI18N
+        folio.setBackground(new java.awt.Color(255, 246, 234));
         folio.setForeground(new java.awt.Color(102, 102, 102));
         folio.setText("Ingrese el folio del usuario");
         folio.setBorder(null);
@@ -108,8 +108,8 @@ public class Returns extends javax.swing.JPanel {
         });
         add(folio, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 100, 260, 30));
 
-        button.setBackground(new java.awt.Color(18, 90, 173));
-        button.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        button.setBackground(new java.awt.Color(153, 0, 0));
+        button.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         button.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 buttonMouseEntered(evt);
@@ -132,10 +132,10 @@ public class Returns extends javax.swing.JPanel {
         add(button, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 290, 260, 50));
 
         Image.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        Image.setIcon(new javax.swing.ImageIcon(getClass().getResource("/itp_library/images/iStock.jpg"))); // NOI18N
+        Image.setIcon(new javax.swing.ImageIcon(getClass().getResource("/itp_library/images/renombrar.png"))); // NOI18N
         Image.setMaximumSize(new java.awt.Dimension(750, 430));
         Image.setMinimumSize(new java.awt.Dimension(750, 430));
-        add(Image, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 50, -1, -1));
+        add(Image, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 10, 340, 430));
     }// </editor-fold>//GEN-END:initComponents
 
     private void book_idActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_book_idActionPerformed

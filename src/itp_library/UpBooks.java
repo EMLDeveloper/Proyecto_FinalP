@@ -108,7 +108,7 @@ public class UpBooks extends javax.swing.JPanel {
         jSeparator16 = new javax.swing.JSeparator();
         Text15 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(255, 255, 255));
+        setBackground(new java.awt.Color(255, 246, 234));
         setMinimumSize(new java.awt.Dimension(750, 430));
         setPreferredSize(new java.awt.Dimension(750, 430));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -126,8 +126,8 @@ public class UpBooks extends javax.swing.JPanel {
         jSeparator3.setPreferredSize(new java.awt.Dimension(200, 10));
         add(jSeparator3, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 20, 10, 350));
 
-        button.setBackground(new java.awt.Color(18, 90, 173));
-        button.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        button.setBackground(new java.awt.Color(153, 0, 0));
+        button.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         button.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 buttonMouseEntered(evt);
@@ -153,7 +153,7 @@ public class UpBooks extends javax.swing.JPanel {
         Text3.setText("Libro ID");
         add(Text3, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 40, -1, -1));
 
-        id.setFont(new java.awt.Font("Segoe UI", 0, 12)); // NOI18N
+        id.setBackground(new java.awt.Color(255, 246, 234));
         id.setForeground(new java.awt.Color(102, 102, 102));
         id.setText("Ingrese el ID del Libro");
         id.setBorder(null);
@@ -169,7 +169,7 @@ public class UpBooks extends javax.swing.JPanel {
         });
         add(id, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 60, 260, 30));
 
-        jSeparator4.setForeground(new java.awt.Color(0, 153, 255));
+        jSeparator4.setForeground(new java.awt.Color(153, 0, 0));
         jSeparator4.setPreferredSize(new java.awt.Dimension(200, 10));
         add(jSeparator4, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 90, 260, 10));
 
@@ -177,7 +177,7 @@ public class UpBooks extends javax.swing.JPanel {
         Text6.setText("Título");
         add(Text6, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 100, -1, -1));
 
-        title.setFont(new java.awt.Font("Segoe UI", 0, 12)); // NOI18N
+        title.setBackground(new java.awt.Color(255, 246, 234));
         title.setForeground(new java.awt.Color(102, 102, 102));
         title.setText("Ingrese el Título");
         title.setBorder(null);
@@ -193,7 +193,7 @@ public class UpBooks extends javax.swing.JPanel {
         });
         add(title, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 120, 260, 30));
 
-        jSeparator7.setForeground(new java.awt.Color(0, 153, 255));
+        jSeparator7.setForeground(new java.awt.Color(153, 0, 0));
         jSeparator7.setPreferredSize(new java.awt.Dimension(200, 10));
         add(jSeparator7, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 150, 260, 10));
 
@@ -201,7 +201,7 @@ public class UpBooks extends javax.swing.JPanel {
         Text7.setText("Fecha de Publicación");
         add(Text7, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 160, -1, -1));
 
-        date.setFont(new java.awt.Font("Segoe UI", 0, 12)); // NOI18N
+        date.setBackground(new java.awt.Color(255, 246, 234));
         date.setForeground(new java.awt.Color(102, 102, 102));
         date.setText("Ingrese la Fecha de Publicación");
         date.setBorder(null);
@@ -217,7 +217,7 @@ public class UpBooks extends javax.swing.JPanel {
         });
         add(date, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 180, 260, 30));
 
-        jSeparator8.setForeground(new java.awt.Color(0, 153, 255));
+        jSeparator8.setForeground(new java.awt.Color(153, 0, 0));
         jSeparator8.setPreferredSize(new java.awt.Dimension(200, 10));
         add(jSeparator8, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 210, 260, 10));
 
@@ -225,7 +225,7 @@ public class UpBooks extends javax.swing.JPanel {
         Text8.setText("Autor");
         add(Text8, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 220, -1, -1));
 
-        author.setFont(new java.awt.Font("Segoe UI", 0, 12)); // NOI18N
+        author.setBackground(new java.awt.Color(255, 246, 234));
         author.setForeground(new java.awt.Color(102, 102, 102));
         author.setText("Ingrese el nombre del Autor/es");
         author.setBorder(null);
@@ -241,7 +241,7 @@ public class UpBooks extends javax.swing.JPanel {
         });
         add(author, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 240, 260, 30));
 
-        jSeparator9.setForeground(new java.awt.Color(0, 153, 255));
+        jSeparator9.setForeground(new java.awt.Color(153, 0, 0));
         jSeparator9.setPreferredSize(new java.awt.Dimension(200, 10));
         add(jSeparator9, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 270, 260, 10));
 
@@ -249,7 +249,7 @@ public class UpBooks extends javax.swing.JPanel {
         Text9.setText("Categoría");
         add(Text9, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 290, -1, -1));
 
-        category.setFont(new java.awt.Font("Segoe UI", 0, 12)); // NOI18N
+        category.setBackground(new java.awt.Color(255, 246, 234));
         category.setForeground(new java.awt.Color(102, 102, 102));
         category.setText("Ingrese la Categoría del Libro");
         category.setBorder(null);
@@ -265,11 +265,11 @@ public class UpBooks extends javax.swing.JPanel {
         });
         add(category, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 310, 260, 30));
 
-        jSeparator10.setForeground(new java.awt.Color(0, 153, 255));
+        jSeparator10.setForeground(new java.awt.Color(153, 0, 0));
         jSeparator10.setPreferredSize(new java.awt.Dimension(200, 10));
         add(jSeparator10, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 340, 260, 10));
 
-        edit.setFont(new java.awt.Font("Segoe UI", 0, 12)); // NOI18N
+        edit.setBackground(new java.awt.Color(255, 246, 234));
         edit.setForeground(new java.awt.Color(102, 102, 102));
         edit.setText("Ingrese la edición");
         edit.setBorder(null);
@@ -285,7 +285,7 @@ public class UpBooks extends javax.swing.JPanel {
         });
         add(edit, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 380, 260, 30));
 
-        jSeparator11.setForeground(new java.awt.Color(0, 153, 255));
+        jSeparator11.setForeground(new java.awt.Color(153, 0, 0));
         jSeparator11.setPreferredSize(new java.awt.Dimension(200, 10));
         add(jSeparator11, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 410, 260, 10));
 
@@ -297,7 +297,7 @@ public class UpBooks extends javax.swing.JPanel {
         Text4.setText("Idioma");
         add(Text4, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 30, -1, -1));
 
-        lang.setFont(new java.awt.Font("Segoe UI", 0, 12)); // NOI18N
+        lang.setBackground(new java.awt.Color(255, 246, 234));
         lang.setForeground(new java.awt.Color(102, 102, 102));
         lang.setText("Ingrese el idioma del Libro");
         lang.setBorder(null);
@@ -313,7 +313,7 @@ public class UpBooks extends javax.swing.JPanel {
         });
         add(lang, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 50, 260, 30));
 
-        jSeparator5.setForeground(new java.awt.Color(0, 153, 255));
+        jSeparator5.setForeground(new java.awt.Color(153, 0, 0));
         jSeparator5.setPreferredSize(new java.awt.Dimension(200, 10));
         add(jSeparator5, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 80, 260, 10));
 
@@ -321,7 +321,7 @@ public class UpBooks extends javax.swing.JPanel {
         Text11.setText("Páginas");
         add(Text11, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 90, -1, -1));
 
-        pages.setFont(new java.awt.Font("Segoe UI", 0, 12)); // NOI18N
+        pages.setBackground(new java.awt.Color(255, 246, 234));
         pages.setForeground(new java.awt.Color(102, 102, 102));
         pages.setText("Ingrese la cantidad de páginas totales");
         pages.setBorder(null);
@@ -337,7 +337,7 @@ public class UpBooks extends javax.swing.JPanel {
         });
         add(pages, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 110, 260, 30));
 
-        jSeparator12.setForeground(new java.awt.Color(0, 153, 255));
+        jSeparator12.setForeground(new java.awt.Color(153, 0, 0));
         jSeparator12.setPreferredSize(new java.awt.Dimension(200, 10));
         add(jSeparator12, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 140, 260, 10));
 
@@ -345,7 +345,7 @@ public class UpBooks extends javax.swing.JPanel {
         Text12.setText("Descripción");
         add(Text12, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 150, -1, -1));
 
-        descr.setFont(new java.awt.Font("Segoe UI", 0, 12)); // NOI18N
+        descr.setBackground(new java.awt.Color(255, 246, 234));
         descr.setForeground(new java.awt.Color(102, 102, 102));
         descr.setText("Ingrese la descripción del Libro");
         descr.setBorder(null);
@@ -361,7 +361,7 @@ public class UpBooks extends javax.swing.JPanel {
         });
         add(descr, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 170, 260, 30));
 
-        jSeparator13.setForeground(new java.awt.Color(0, 153, 255));
+        jSeparator13.setForeground(new java.awt.Color(153, 0, 0));
         jSeparator13.setPreferredSize(new java.awt.Dimension(200, 10));
         add(jSeparator13, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 200, 260, 10));
 
@@ -369,7 +369,7 @@ public class UpBooks extends javax.swing.JPanel {
         Text13.setText("Stock");
         add(Text13, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 210, -1, -1));
 
-        stock.setFont(new java.awt.Font("Segoe UI", 0, 12)); // NOI18N
+        stock.setBackground(new java.awt.Color(255, 246, 234));
         stock.setForeground(new java.awt.Color(102, 102, 102));
         stock.setText("Cantidad Total");
         stock.setBorder(null);
@@ -385,7 +385,7 @@ public class UpBooks extends javax.swing.JPanel {
         });
         add(stock, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 230, 80, 30));
 
-        jSeparator14.setForeground(new java.awt.Color(0, 153, 255));
+        jSeparator14.setForeground(new java.awt.Color(153, 0, 0));
         jSeparator14.setPreferredSize(new java.awt.Dimension(200, 10));
         add(jSeparator14, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 260, 80, 10));
 
@@ -393,7 +393,7 @@ public class UpBooks extends javax.swing.JPanel {
         Text14.setText("Ejemplares");
         add(Text14, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 280, -1, -1));
 
-        ejem.setFont(new java.awt.Font("Segoe UI", 0, 12)); // NOI18N
+        ejem.setBackground(new java.awt.Color(255, 246, 234));
         ejem.setForeground(new java.awt.Color(102, 102, 102));
         ejem.setText("Ingrese la cantidad de ejemplares");
         ejem.setBorder(null);
@@ -409,11 +409,11 @@ public class UpBooks extends javax.swing.JPanel {
         });
         add(ejem, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 300, 260, 30));
 
-        jSeparator15.setForeground(new java.awt.Color(0, 153, 255));
+        jSeparator15.setForeground(new java.awt.Color(153, 0, 0));
         jSeparator15.setPreferredSize(new java.awt.Dimension(200, 10));
         add(jSeparator15, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 330, 260, 10));
 
-        available.setFont(new java.awt.Font("Segoe UI", 0, 12)); // NOI18N
+        available.setBackground(new java.awt.Color(255, 246, 234));
         available.setForeground(new java.awt.Color(102, 102, 102));
         available.setText("Cantidad a prestar");
         available.setBorder(null);
@@ -429,7 +429,7 @@ public class UpBooks extends javax.swing.JPanel {
         });
         add(available, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 230, 100, 30));
 
-        jSeparator16.setForeground(new java.awt.Color(0, 153, 255));
+        jSeparator16.setForeground(new java.awt.Color(153, 0, 0));
         jSeparator16.setPreferredSize(new java.awt.Dimension(200, 10));
         add(jSeparator16, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 260, 100, 10));
 
