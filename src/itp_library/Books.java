@@ -63,7 +63,7 @@ public class Books extends javax.swing.JPanel {
         jScrollPane1 = new javax.swing.JScrollPane();
         jTable1 = new javax.swing.JTable();
 
-        setBackground(new java.awt.Color(255, 255, 255));
+        setBackground(new java.awt.Color(255, 246, 234));
         setMinimumSize(new java.awt.Dimension(750, 430));
         setPreferredSize(new java.awt.Dimension(750, 430));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -76,11 +76,11 @@ public class Books extends javax.swing.JPanel {
         Title.setText("Libros");
         add(Title, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 10, -1, -1));
 
-        jSeparator2.setForeground(new java.awt.Color(0, 153, 255));
+        jSeparator2.setForeground(new java.awt.Color(153, 0, 0));
         jSeparator2.setPreferredSize(new java.awt.Dimension(250, 10));
         add(jSeparator2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 70, 620, 10));
 
-        bid.setFont(new java.awt.Font("Segoe UI", 0, 12)); // NOI18N
+        bid.setBackground(new java.awt.Color(255, 246, 234));
         bid.setForeground(new java.awt.Color(102, 102, 102));
         bid.setText("Ingrese el ID del Libro a buscar");
         bid.setBorder(null);
@@ -91,8 +91,8 @@ public class Books extends javax.swing.JPanel {
         });
         add(bid, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 40, 620, 30));
 
-        button.setBackground(new java.awt.Color(18, 90, 173));
-        button.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        button.setBackground(new java.awt.Color(153, 0, 0));
+        button.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         button.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 buttonMouseEntered(evt);
@@ -114,8 +114,8 @@ public class Books extends javax.swing.JPanel {
 
         add(button, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 40, 80, 30));
 
-        nuevo.setBackground(new java.awt.Color(18, 90, 173));
-        nuevo.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        nuevo.setBackground(new java.awt.Color(153, 0, 0));
+        nuevo.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         nuevo.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 nuevoMouseEntered(evt);
@@ -142,8 +142,8 @@ public class Books extends javax.swing.JPanel {
 
         add(nuevo, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 395, 80, -1));
 
-        edit.setBackground(new java.awt.Color(18, 90, 173));
-        edit.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        edit.setBackground(new java.awt.Color(153, 0, 0));
+        edit.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         edit.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 editMouseEntered(evt);
@@ -165,8 +165,8 @@ public class Books extends javax.swing.JPanel {
 
         add(edit, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 395, 80, -1));
 
-        delete.setBackground(new java.awt.Color(18, 90, 173));
-        delete.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        delete.setBackground(new java.awt.Color(153, 0, 0));
+        delete.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         delete.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 deleteMouseEntered(evt);

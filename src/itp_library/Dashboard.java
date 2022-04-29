@@ -78,7 +78,6 @@ public class Dashboard extends javax.swing.JFrame {
         Title = new javax.swing.JPanel();
         red_squr = new javax.swing.JPanel();
         exit = new javax.swing.JLabel();
-        slogan = new javax.swing.JLabel();
         content = new javax.swing.JPanel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -268,7 +267,7 @@ public class Dashboard extends javax.swing.JFrame {
         jSeparator1.setPreferredSize(new java.awt.Dimension(50, 5));
         Menu.add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 90, 190, 20));
 
-        Background.add(Menu, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 270, 640));
+        Background.add(Menu, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 270, 610));
 
         Header.setBackground(new java.awt.Color(153, 0, 0));
 
@@ -301,7 +300,7 @@ public class Dashboard extends javax.swing.JFrame {
                 .addGap(33, 33, 33))
         );
 
-        Background.add(Header, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 60, 750, 150));
+        Background.add(Header, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 30, 750, 150));
 
         Title.setBackground(new java.awt.Color(255, 255, 255));
         Title.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
@@ -372,10 +371,6 @@ public class Dashboard extends javax.swing.JFrame {
 
         Background.add(Title, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1020, -1));
 
-        slogan.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        slogan.setText("We ♥  the reading!");
-        Background.add(slogan, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 30, 190, 30));
-
         content.setBackground(new java.awt.Color(255, 255, 255));
 
         javax.swing.GroupLayout contentLayout = new javax.swing.GroupLayout(content);
@@ -389,7 +384,7 @@ public class Dashboard extends javax.swing.JFrame {
             .addGap(0, 430, Short.MAX_VALUE)
         );
 
-        Background.add(content, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 210, 750, 430));
+        Background.add(content, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 180, 750, 430));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -399,7 +394,9 @@ public class Dashboard extends javax.swing.JFrame {
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(Background, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addComponent(Background, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, Short.MAX_VALUE))
         );
 
         pack();
@@ -693,6 +690,5 @@ public class Dashboard extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel9;
     private javax.swing.JSeparator jSeparator1;
     private javax.swing.JPanel red_squr;
-    private javax.swing.JLabel slogan;
     // End of variables declaration//GEN-END:variables
 }

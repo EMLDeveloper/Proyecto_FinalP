@@ -77,7 +77,7 @@ public class UpUsers extends javax.swing.JPanel {
         ap2 = new javax.swing.JTextField();
         jSeparator6 = new javax.swing.JSeparator();
 
-        setBackground(new java.awt.Color(255, 255, 255));
+        setBackground(new java.awt.Color(255, 246, 234));
         setMinimumSize(new java.awt.Dimension(750, 430));
         setPreferredSize(new java.awt.Dimension(750, 430));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -98,11 +98,11 @@ public class UpUsers extends javax.swing.JPanel {
         Text2.setText("Domicilio");
         add(Text2, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 50, -1, -1));
 
-        jSeparator1.setForeground(new java.awt.Color(0, 153, 255));
+        jSeparator1.setForeground(new java.awt.Color(153, 0, 0));
         jSeparator1.setPreferredSize(new java.awt.Dimension(200, 10));
         add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 210, 260, 10));
 
-        jSeparator2.setForeground(new java.awt.Color(0, 153, 255));
+        jSeparator2.setForeground(new java.awt.Color(153, 0, 0));
         jSeparator2.setPreferredSize(new java.awt.Dimension(200, 10));
         add(jSeparator2, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 110, 260, 10));
 
@@ -111,7 +111,7 @@ public class UpUsers extends javax.swing.JPanel {
         jSeparator3.setPreferredSize(new java.awt.Dimension(200, 10));
         add(jSeparator3, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 20, 10, 350));
 
-        tel.setFont(new java.awt.Font("Segoe UI", 0, 12)); // NOI18N
+        tel.setBackground(new java.awt.Color(255, 246, 234));
         tel.setForeground(new java.awt.Color(102, 102, 102));
         tel.setText("Ingrese un número telefónico");
         tel.setBorder(null);
@@ -127,7 +127,7 @@ public class UpUsers extends javax.swing.JPanel {
         });
         add(tel, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 180, 260, 30));
 
-        dom.setFont(new java.awt.Font("Segoe UI", 0, 12)); // NOI18N
+        dom.setBackground(new java.awt.Color(255, 246, 234));
         dom.setForeground(new java.awt.Color(102, 102, 102));
         dom.setText("Ingrese el domicilio");
         dom.setBorder(null);
@@ -143,8 +143,8 @@ public class UpUsers extends javax.swing.JPanel {
         });
         add(dom, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 80, 260, 30));
 
-        button.setBackground(new java.awt.Color(18, 90, 173));
-        button.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        button.setBackground(new java.awt.Color(153, 0, 0));
+        button.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         button.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 buttonMouseEntered(evt);
@@ -170,7 +170,7 @@ public class UpUsers extends javax.swing.JPanel {
         Text3.setText("Nombre");
         add(Text3, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 60, -1, -1));
 
-        name.setFont(new java.awt.Font("Segoe UI", 0, 12)); // NOI18N
+        name.setBackground(new java.awt.Color(255, 246, 234));
         name.setForeground(new java.awt.Color(102, 102, 102));
         name.setText("Ingrese el nombre");
         name.setBorder(null);
@@ -186,7 +186,7 @@ public class UpUsers extends javax.swing.JPanel {
         });
         add(name, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 90, 260, 30));
 
-        jSeparator4.setForeground(new java.awt.Color(0, 153, 255));
+        jSeparator4.setForeground(new java.awt.Color(153, 0, 0));
         jSeparator4.setPreferredSize(new java.awt.Dimension(200, 10));
         add(jSeparator4, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 120, 260, 10));
 
@@ -194,7 +194,7 @@ public class UpUsers extends javax.swing.JPanel {
         Text4.setText("Apellido Paterno");
         add(Text4, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 160, -1, -1));
 
-        ap1.setFont(new java.awt.Font("Segoe UI", 0, 12)); // NOI18N
+        ap1.setBackground(new java.awt.Color(255, 246, 234));
         ap1.setForeground(new java.awt.Color(102, 102, 102));
         ap1.setText("Ingrese el apellido paterno");
         ap1.setBorder(null);
@@ -210,7 +210,7 @@ public class UpUsers extends javax.swing.JPanel {
         });
         add(ap1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 190, 260, 30));
 
-        jSeparator5.setForeground(new java.awt.Color(0, 153, 255));
+        jSeparator5.setForeground(new java.awt.Color(153, 0, 0));
         jSeparator5.setPreferredSize(new java.awt.Dimension(200, 10));
         add(jSeparator5, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 220, 260, 10));
 
@@ -218,7 +218,7 @@ public class UpUsers extends javax.swing.JPanel {
         Text5.setText("Apellido Materno");
         add(Text5, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 260, -1, -1));
 
-        ap2.setFont(new java.awt.Font("Segoe UI", 0, 12)); // NOI18N
+        ap2.setBackground(new java.awt.Color(255, 246, 234));
         ap2.setForeground(new java.awt.Color(102, 102, 102));
         ap2.setText("Ingrese el apellido materno");
         ap2.setBorder(null);
@@ -234,7 +234,7 @@ public class UpUsers extends javax.swing.JPanel {
         });
         add(ap2, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 290, 260, 30));
 
-        jSeparator6.setForeground(new java.awt.Color(0, 153, 255));
+        jSeparator6.setForeground(new java.awt.Color(153, 0, 0));
         jSeparator6.setPreferredSize(new java.awt.Dimension(200, 10));
         add(jSeparator6, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 320, 260, 10));
     }// </editor-fold>//GEN-END:initComponents
