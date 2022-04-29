@@ -661,7 +661,7 @@ public class Dashboard extends javax.swing.JFrame {
                 new Dashboard().setVisible(true);
             }
         });
-    }
+    } 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JPanel Background;
