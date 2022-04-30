@@ -20,9 +20,12 @@ Sistema para la gestión de una biblioteca universitaria en Java NetBeans.
 
 # Previews
 
-![](https://user-images.githubusercontent.com/98730886/160222042-091df5c5-3bc5-404d-9188-2f8f7e27ce82.jpg)
-![](https://user-images.githubusercontent.com/98730886/160222052-f119e104-3066-4c94-b1a9-3eb06905efaf.jpg)
-![](https://user-images.githubusercontent.com/98730886/160222057-37b3f9bd-3cad-460a-98c3-1c6e4abdf346.jpg)
+![](https://user-images.githubusercontent.com/98730886/166083725-f4b62869-32c5-4e95-b810-701461a3b13a.png)
+![](https://user-images.githubusercontent.com/98730886/166083744-be9e57de-4e33-4e44-98fe-191b0a9fc50f.png)
+![](https://user-images.githubusercontent.com/98730886/166083755-fd43ca55-78c4-4105-9d44-d3f4a2b79efa.png)
+![](https://user-images.githubusercontent.com/98730886/166083763-0802f4d3-cb9d-4654-b644-f4a285aa2161.png)
+
+
 
 
 # Getting Started
