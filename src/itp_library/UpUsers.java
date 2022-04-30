@@ -383,10 +383,10 @@ public class UpUsers extends javax.swing.JPanel {
     }//GEN-LAST:event_buttonMousePressed
 
     void setColor(JPanel panel){
-        panel.setBackground(new Color(21,101,192));
+        panel.setBackground(new Color(153,0,0));
     }
     void resetColor(JPanel panel){
-        panel.setBackground(new Color(18,90,173));
+        panel.setBackground(new Color(153,0,0));
     }
     
     public void InsertUser(String name, String app, String apm, String dom, String tel) throws SQLException{

@@ -178,10 +178,10 @@ public class Reports extends javax.swing.JPanel {
     }//GEN-LAST:event_jLabel1MousePressed
 
     void setColor(JPanel panel){
-        panel.setBackground(new Color(21,101,192));
+        panel.setBackground(new Color(153,0,0));
     }
     void resetColor(JPanel panel){
-        panel.setBackground(new Color(18,90,173));
+        panel.setBackground(new Color(153,0,0));
     }
     
     private void GetReports() throws SQLException{

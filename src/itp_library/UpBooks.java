@@ -903,10 +903,10 @@ public class UpBooks extends javax.swing.JPanel {
     }//GEN-LAST:event_buttonMousePressed
 
     void setColor(JPanel panel){
-        panel.setBackground(new Color(21,101,192));
+        panel.setBackground(new Color(153,0,0));
     }
     void resetColor(JPanel panel){
-        panel.setBackground(new Color(18,90,173));
+        panel.setBackground(new Color(153,0,0));
     }
     
     public void InsertBook(String id, String titu, String fech, String auth, String cate, String ed, String idiom, int pags, String desc, int stck, int avai, String ej) throws SQLException{
